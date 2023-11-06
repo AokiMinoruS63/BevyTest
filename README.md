@@ -34,7 +34,7 @@ Windows, iOS, Web, Android, iPhoneのクロスプラットフォーム環境が�
 1. `rustup target add aarch64-apple-ios x86_64-apple-ios aarch64-apple-ios-sim` を初回のみ実行
 ### 実行
 1. `sh mobile_checkout.sh`
-2. `make run`
+2. `make run`またはXCodeプロジェクトを開いてbuild or run
 
 
 ## Android

@@ -13,6 +13,9 @@ license = "MIT OR Apache-2.0"
 # PC向けの依存関係を追加
 [dependencies]
 bevy = "0.12.0"
+# wasm向けの依存関係を追加
+[target.wasm32-unknown-unknown]
+runner = "wasm-server-runner"
 EOL
 
 # `main.rs`をコピーし、`lib.rs`を削除

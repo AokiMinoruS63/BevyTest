@@ -15,6 +15,9 @@ Windows, iOS, Web, Android, iPhoneのクロスプラットフォーム環境が�
  - [Mac](#mac)
    - [前提条件](#前提条件-3)
    - [実行](#実行-3)
+ - [WASM](#wasm)
+   - [前提条件](#前提条件-4)
+   - [実行](#実行-4)
  - [参考資料](#参考資料)
  - [課題](#課題)
 
@@ -68,6 +71,15 @@ export ANDROID_NDK_ROOT="$ANDROID_SDK_ROOT/ndk/25.2.9519653"
 ### 実行
 1. `sh pc_checkout.sh`
 2. `cargo run`
+
+## WASM
+### 前提条件
+1. `rustup target add wasm32-unknown-unknown`
+4. `cargo install wasm-server-runner`
+### 実行
+1. `sh pc_checkout.sh`
+2. `cargo run --target wasm32-unknown-unknown`
+3. ローカルサーバーに接続
 
 ## 参考資料
 https://github.com/bevyengine/bevy/tree/main/examples

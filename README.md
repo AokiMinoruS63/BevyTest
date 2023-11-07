@@ -55,13 +55,13 @@ export ANDROID_NDK_ROOT="$ANDROID_SDK_ROOT/ndk/25.2.9519653"
 
 ## Windows
 ### 前提条件
-1. この項目のみWindowsで行います(多分Macでもできるかもしれません)
+1. この項目のみWindowsで行います
 2. Rustの公式ページからインストーラダウンロード・実行
 3. `Visual Studio 2019 build tools installer`実行、インストール
 4. `rustup target add x86_64-pc-windows-msvc` を初回のみ実行
 
 ### 実行
-1. `sh pc_checkout.sh`
+1. `sh pc_checkout.bat`
 2. `cargo run`
 
 ## Mac

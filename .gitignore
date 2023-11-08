@@ -1,6 +1,7 @@
 /target
 /build
 crates/*/target
+Cargo.toml
 Cargo.lock
 .cargo/config
 .cargo/config.toml

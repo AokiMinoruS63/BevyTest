@@ -1,6 +1,5 @@
 /target
 /build
-/src
 crates/*/target
 Cargo.lock
 .cargo/config
